@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "arrowParens": "always",
+  "astro": false,
   "bracketSameLine": false,
   "bracketSpacing": true,
   "embeddedLanguageFormatting": "auto",
@@ -31,7 +32,10 @@
   "singleQuote": true,
   "sortImports": false,
   "sortPackageJson": true,
+  "sortTailwindcss": false,
+  "svelte": false,
   "tabWidth": 2,
   "trailingComma": "all",
-  "useTabs": false
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false
 }
