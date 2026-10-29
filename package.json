@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "bun test",
-    "prepare": "husky || 0",
+    "prepare": "husky || true",
     "tsc:ci": "tsc",
     "fmt:ci": "oxfmt --check .",
     "lint:ci": "oxlint"
